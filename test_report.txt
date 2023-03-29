@@ -1207,7 +1207,7 @@ FAIL src/components/TwoDice.test.tsx
 PASS src/form-components/MultipleChoiceQuestion.test.tsx
 PASS src/bad-components/ChooseTeam.test.tsx
 PASS src/bad-components/DoubleHalf.test.tsx
-FAIL src/HtmlCss.test.tsx
+FAIL src/HtmlCss.test.tsx (7.105 s)
   ● Some HTML Elements are added. › There is a header
 
     TestingLibraryElementError: Found multiple elements with the role "heading"
@@ -1390,7 +1390,7 @@ FAIL src/HtmlCss.test.tsx
                 [36m<input[39m
                   [33mclass[39m=[32m"form-check-input"[39m
                   [33mtype[39m=[32m"radio"[39m
-                  [33mvalue[39m=[32m"red"[39m
+                  [33mvalue[39m=[32m"orange"[39m
                 [36m/>[39m
                 [36m<label[39m
                   [33mclass[39m=[32m"form-check-label"[39m
@@ -1409,7 +1409,7 @@ FAIL src/HtmlCss.test.tsx
                 [36m<input[39m
                   [33mclass[39m=[32m"form-check-input"[39m
                   [33mtype[39m=[32m"radio"[39m
-                  [33mvalue[39m=[32m"red"[39m
+                  [33mvalue[39m=[32m"yellow"[39m
                 [36m/>[39m
                 [36m<label[39m
                   [33mclass[39m=[32m"form-check-label"[39m
@@ -1428,7 +1428,7 @@ FAIL src/HtmlCss.test.tsx
                 [36m<input[39m
                   [33mclass[39m=[32m"form-check-input"[39m
                   [33mtype[39m=[32m"radio"[39m
-                  [33mvalue[39m=[32m"red"[39m
+                  [33mvalue[39m=[32m"green"[39m
                 [36m/>[39m
                 [36m<label[39m
                   [33mclass[39m=[32m"form-check-label"[39m
@@ -1447,7 +1447,7 @@ FAIL src/HtmlCss.test.tsx
                 [36m<input[39m
                   [33mclass[39m=[32m"form-check-input"[39m
                   [33mtype[39m=[32m"radio"[39m
-                  [33mvalue[39m=[32m"red"[39m
+                  [33mvalue[39m=[32m"blue"[39m
                 [36m/>[39m
                 [36m<label[39m
                   [33mclass[39m=[32m"form-check-label"[39m
@@ -1466,7 +1466,7 @@ FAIL src/HtmlCss.test.tsx
                 [36m<input[39m
                   [33mclass[39m=[32m"form-check-input"[39m
                   [33mtype[39m=[32m"radio"[39m
-                  [33mvalue[39m=[32m"red"[39m
+                  [33mvalue[39m=[32m"indigo"[39m
                 [36m/>[39m
                 [36m<label[39m
                   [33mclass[39m=[32m"form-check-label"[39m
@@ -1485,7 +1485,7 @@ FAIL src/HtmlCss.test.tsx
                 [36m<input[39m
                   [33mclass[39m=[32m"form-check-input"[39m
                   [33mtype[39m=[32m"radio"[39m
-                  [33mvalue[39m=[32m"red"[39m
+                  [33mvalue[39m=[32m"violet"[39m
                 [36m/>[39m
                 [36m<label[39m
                   [33mclass[39m=[32m"form-check-label"[39m
@@ -1504,7 +1504,7 @@ FAIL src/HtmlCss.test.tsx
                 [36m<input[39m
                   [33mclass[39m=[32m"form-check-input"[39m
                   [33mtype[39m=[32m"radio"[39m
-                  [33mvalue[39m=[32m"red"[39m
+                  [33mvalue[39m=[32m"gray"[39m
                 [36m/>[39m
                 [36m<label[39m
                   [33mclass[39m=[32m"form-check-label"[39m
@@ -2147,49 +2147,49 @@ FAIL src/HtmlCss.test.tsx
       [36m<input[39m
         [33mclass[39m=[32m"form-check-input"[39m
         [33mtype[39m=[32m"radio"[39m
-        [33mvalue[39m=[32m"red"[39m
+        [33mvalue[39m=[32m"orange"[39m
       [36m/>[39m
 
       Name "":
       [36m<input[39m
         [33mclass[39m=[32m"form-check-input"[39m
         [33mtype[39m=[32m"radio"[39m
-        [33mvalue[39m=[32m"red"[39m
+        [33mvalue[39m=[32m"yellow"[39m
       [36m/>[39m
 
       Name "":
       [36m<input[39m
         [33mclass[39m=[32m"form-check-input"[39m
         [33mtype[39m=[32m"radio"[39m
-        [33mvalue[39m=[32m"red"[39m
+        [33mvalue[39m=[32m"green"[39m
       [36m/>[39m
 
       Name "":
       [36m<input[39m
         [33mclass[39m=[32m"form-check-input"[39m
         [33mtype[39m=[32m"radio"[39m
-        [33mvalue[39m=[32m"red"[39m
+        [33mvalue[39m=[32m"blue"[39m
       [36m/>[39m
 
       Name "":
       [36m<input[39m
         [33mclass[39m=[32m"form-check-input"[39m
         [33mtype[39m=[32m"radio"[39m
-        [33mvalue[39m=[32m"red"[39m
+        [33mvalue[39m=[32m"indigo"[39m
       [36m/>[39m
 
       Name "":
       [36m<input[39m
         [33mclass[39m=[32m"form-check-input"[39m
         [33mtype[39m=[32m"radio"[39m
-        [33mvalue[39m=[32m"red"[39m
+        [33mvalue[39m=[32m"violet"[39m
       [36m/>[39m
 
       Name "":
       [36m<input[39m
         [33mclass[39m=[32m"form-check-input"[39m
         [33mtype[39m=[32m"radio"[39m
-        [33mvalue[39m=[32m"red"[39m
+        [33mvalue[39m=[32m"gray"[39m
       [36m/>[39m
 
       --------------------------------------------------
@@ -2349,7 +2349,7 @@ FAIL src/HtmlCss.test.tsx
                 [36m<input[39m
                   [33mclass[39m=[32m"form-check-input"[39m
                   [33mtype[39m=[32m"radio"[39m
-                  [33mvalue[39m=[32m"red"[39m
+                  [33mvalue[39m=[32m"orange"[39m
                 [36m/>[39m
                 [36m<label[39m
                   [33mclass[39m=[32m"form-check-label"[39m
@@ -2368,7 +2368,7 @@ FAIL src/HtmlCss.test.tsx
                 [36m<input[39m
                   [33mclass[39m=[32m"form-check-input"[39m
                   [33mtype[39m=[32m"radio"[39m
-                  [33mvalue[39m=[32m"red"[39m
+                  [33mvalue[39m=[32m"yellow"[39m
                 [36m/>[39m
                 [36m<label[39m
                   [33mclass[39m=[32m"form-check-label"[39m
@@ -2387,7 +2387,7 @@ FAIL src/HtmlCss.test.tsx
                 [36m<input[39m
                   [33mclass[39m=[32m"form-check-input"[39m
                   [33mtype[39m=[32m"radio"[39m
-                  [33mvalue[39m=[32m"red"[39m
+                  [33mvalue[39m=[32m"green"[39m
                 [36m/>[39m
                 [36m<label[39m
                   [33mclass[39m=[32m"form-check-label"[39m
@@ -2406,7 +2406,7 @@ FAIL src/HtmlCss.test.tsx
                 [36m<input[39m
                   [33mclass[39m=[32m"form-check-input"[39m
                   [33mtype[39m=[32m"radio"[39m
-                  [33mvalue[39m=[32m"red"[39m
+                  [33mvalue[39m=[32m"blue"[39m
                 [36m/>[39m
                 [36m<label[39m
                   [33mclass[39m=[32m"form-check-label"[39m
@@ -2425,7 +2425,7 @@ FAIL src/HtmlCss.test.tsx
                 [36m<input[39m
                   [33mclass[39m=[32m"form-check-input"[39m
                   [33mtype[39m=[32m"radio"[39m
-                  [33mvalue[39m=[32m"red"[39m
+                  [33mvalue[39m=[32m"indigo"[39m
                 [36m/>[39m
                 [36m<label[39m
                   [33mclass[39m=[32m"form-check-label"[39m
@@ -2444,7 +2444,7 @@ FAIL src/HtmlCss.test.tsx
                 [36m<input[39m
                   [33mclass[39m=[32m"form-check-input"[39m
                   [33mtype[39m=[32m"radio"[39m
-                  [33mvalue[39m=[32m"red"[39m
+                  [33mvalue[39m=[32m"violet"[39m
                 [36m/>[39m
                 [36m<label[39m
                   [33mclass[39m=[32m"form-check-label"[39m
@@ -2463,7 +2463,7 @@ FAIL src/HtmlCss.test.tsx
                 [36m<input[39m
                   [33mclass[39m=[32m"form-check-input"[39m
                   [33mtype[39m=[32m"radio"[39m
-                  [33mvalue[39m=[32m"red"[39m
+                  [33mvalue[39m=[32m"gray"[39m
                 [36m/>[39m
                 [36m<label[39m
                   [33mclass[39m=[32m"form-check-label"[39m
@@ -3105,49 +3105,49 @@ FAIL src/HtmlCss.test.tsx
       [36m<input[39m
         [33mclass[39m=[32m"form-check-input"[39m
         [33mtype[39m=[32m"radio"[39m
-        [33mvalue[39m=[32m"red"[39m
+        [33mvalue[39m=[32m"orange"[39m
       [36m/>[39m
 
       Name "":
       [36m<input[39m
         [33mclass[39m=[32m"form-check-input"[39m
         [33mtype[39m=[32m"radio"[39m
-        [33mvalue[39m=[32m"red"[39m
+        [33mvalue[39m=[32m"yellow"[39m
       [36m/>[39m
 
       Name "":
       [36m<input[39m
         [33mclass[39m=[32m"form-check-input"[39m
         [33mtype[39m=[32m"radio"[39m
-        [33mvalue[39m=[32m"red"[39m
+        [33mvalue[39m=[32m"green"[39m
       [36m/>[39m
 
       Name "":
       [36m<input[39m
         [33mclass[39m=[32m"form-check-input"[39m
         [33mtype[39m=[32m"radio"[39m
-        [33mvalue[39m=[32m"red"[39m
+        [33mvalue[39m=[32m"blue"[39m
       [36m/>[39m
 
       Name "":
       [36m<input[39m
         [33mclass[39m=[32m"form-check-input"[39m
         [33mtype[39m=[32m"radio"[39m
-        [33mvalue[39m=[32m"red"[39m
+        [33mvalue[39m=[32m"indigo"[39m
       [36m/>[39m
 
       Name "":
       [36m<input[39m
         [33mclass[39m=[32m"form-check-input"[39m
         [33mtype[39m=[32m"radio"[39m
-        [33mvalue[39m=[32m"red"[39m
+        [33mvalue[39m=[32m"violet"[39m
       [36m/>[39m
 
       Name "":
       [36m<input[39m
         [33mclass[39m=[32m"form-check-input"[39m
         [33mtype[39m=[32m"radio"[39m
-        [33mvalue[39m=[32m"red"[39m
+        [33mvalue[39m=[32m"gray"[39m
       [36m/>[39m
 
       --------------------------------------------------
@@ -3307,7 +3307,7 @@ FAIL src/HtmlCss.test.tsx
                 [36m<input[39m
                   [33mclass[39m=[32m"form-check-input"[39m
                   [33mtype[39m=[32m"radio"[39m
-                  [33mvalue[39m=[32m"red"[39m
+                  [33mvalue[39m=[32m"orange"[39m
                 [36m/>[39m
                 [36m<label[39m
                   [33mclass[39m=[32m"form-check-label"[39m
@@ -3326,7 +3326,7 @@ FAIL src/HtmlCss.test.tsx
                 [36m<input[39m
                   [33mclass[39m=[32m"form-check-input"[39m
                   [33mtype[39m=[32m"radio"[39m
-                  [33mvalue[39m=[32m"red"[39m
+                  [33mvalue[39m=[32m"yellow"[39m
                 [36m/>[39m
                 [36m<label[39m
                   [33mclass[39m=[32m"form-check-label"[39m
@@ -3345,7 +3345,7 @@ FAIL src/HtmlCss.test.tsx
                 [36m<input[39m
                   [33mclass[39m=[32m"form-check-input"[39m
                   [33mtype[39m=[32m"radio"[39m
-                  [33mvalue[39m=[32m"red"[39m
+                  [33mvalue[39m=[32m"green"[39m
                 [36m/>[39m
                 [36m<label[39m
                   [33mclass[39m=[32m"form-check-label"[39m
@@ -3364,7 +3364,7 @@ FAIL src/HtmlCss.test.tsx
                 [36m<input[39m
                   [33mclass[39m=[32m"form-check-input"[39m
                   [33mtype[39m=[32m"radio"[39m
-                  [33mvalue[39m=[32m"red"[39m
+                  [33mvalue[39m=[32m"blue"[39m
                 [36m/>[39m
                 [36m<label[39m
                   [33mclass[39m=[32m"form-check-label"[39m
@@ -3383,7 +3383,7 @@ FAIL src/HtmlCss.test.tsx
                 [36m<input[39m
                   [33mclass[39m=[32m"form-check-input"[39m
                   [33mtype[39m=[32m"radio"[39m
-                  [33mvalue[39m=[32m"red"[39m
+                  [33mvalue[39m=[32m"indigo"[39m
                 [36m/>[39m
                 [36m<label[39m
                   [33mclass[39m=[32m"form-check-label"[39m
@@ -3402,7 +3402,7 @@ FAIL src/HtmlCss.test.tsx
                 [36m<input[39m
                   [33mclass[39m=[32m"form-check-input"[39m
                   [33mtype[39m=[32m"radio"[39m
-                  [33mvalue[39m=[32m"red"[39m
+                  [33mvalue[39m=[32m"violet"[39m
                 [36m/>[39m
                 [36m<label[39m
                   [33mclass[39m=[32m"form-check-label"[39m
@@ -3421,7 +3421,7 @@ FAIL src/HtmlCss.test.tsx
                 [36m<input[39m
                   [33mclass[39m=[32m"form-check-input"[39m
                   [33mtype[39m=[32m"radio"[39m
-                  [33mvalue[39m=[32m"red"[39m
+                  [33mvalue[39m=[32m"gray"[39m
                 [36m/>[39m
                 [36m<label[39m
                   [33mclass[39m=[32m"form-check-label"[39m
@@ -4063,49 +4063,49 @@ FAIL src/HtmlCss.test.tsx
       [36m<input[39m
         [33mclass[39m=[32m"form-check-input"[39m
         [33mtype[39m=[32m"radio"[39m
-        [33mvalue[39m=[32m"red"[39m
+        [33mvalue[39m=[32m"orange"[39m
       [36m/>[39m
 
       Name "":
       [36m<input[39m
         [33mclass[39m=[32m"form-check-input"[39m
         [33mtype[39m=[32m"radio"[39m
-        [33mvalue[39m=[32m"red"[39m
+        [33mvalue[39m=[32m"yellow"[39m
       [36m/>[39m
 
       Name "":
       [36m<input[39m
         [33mclass[39m=[32m"form-check-input"[39m
         [33mtype[39m=[32m"radio"[39m
-        [33mvalue[39m=[32m"red"[39m
+        [33mvalue[39m=[32m"green"[39m
       [36m/>[39m
 
       Name "":
       [36m<input[39m
         [33mclass[39m=[32m"form-check-input"[39m
         [33mtype[39m=[32m"radio"[39m
-        [33mvalue[39m=[32m"red"[39m
+        [33mvalue[39m=[32m"blue"[39m
       [36m/>[39m
 
       Name "":
       [36m<input[39m
         [33mclass[39m=[32m"form-check-input"[39m
         [33mtype[39m=[32m"radio"[39m
-        [33mvalue[39m=[32m"red"[39m
+        [33mvalue[39m=[32m"indigo"[39m
       [36m/>[39m
 
       Name "":
       [36m<input[39m
         [33mclass[39m=[32m"form-check-input"[39m
         [33mtype[39m=[32m"radio"[39m
-        [33mvalue[39m=[32m"red"[39m
+        [33mvalue[39m=[32m"violet"[39m
       [36m/>[39m
 
       Name "":
       [36m<input[39m
         [33mclass[39m=[32m"form-check-input"[39m
         [33mtype[39m=[32m"radio"[39m
-        [33mvalue[39m=[32m"red"[39m
+        [33mvalue[39m=[32m"gray"[39m
       [36m/>[39m
 
       --------------------------------------------------
@@ -4265,7 +4265,7 @@ FAIL src/HtmlCss.test.tsx
                 [36m<input[39m
                   [33mclass[39m=[32m"form-check-input"[39m
                   [33mtype[39m=[32m"radio"[39m
-                  [33mvalue[39m=[32m"red"[39m
+                  [33mvalue[39m=[32m"orange"[39m
                 [36m/>[39m
                 [36m<label[39m
                   [33mclass[39m=[32m"form-check-label"[39m
@@ -4284,7 +4284,7 @@ FAIL src/HtmlCss.test.tsx
                 [36m<input[39m
                   [33mclass[39m=[32m"form-check-input"[39m
                   [33mtype[39m=[32m"radio"[39m
-                  [33mvalue[39m=[32m"red"[39m
+                  [33mvalue[39m=[32m"yellow"[39m
                 [36m/>[39m
                 [36m<label[39m
                   [33mclass[39m=[32m"form-check-label"[39m
@@ -4303,7 +4303,7 @@ FAIL src/HtmlCss.test.tsx
                 [36m<input[39m
                   [33mclass[39m=[32m"form-check-input"[39m
                   [33mtype[39m=[32m"radio"[39m
-                  [33mvalue[39m=[32m"red"[39m
+                  [33mvalue[39m=[32m"green"[39m
                 [36m/>[39m
                 [36m<label[39m
                   [33mclass[39m=[32m"form-check-label"[39m
@@ -4322,7 +4322,7 @@ FAIL src/HtmlCss.test.tsx
                 [36m<input[39m
                   [33mclass[39m=[32m"form-check-input"[39m
                   [33mtype[39m=[32m"radio"[39m
-                  [33mvalue[39m=[32m"red"[39m
+                  [33mvalue[39m=[32m"blue"[39m
                 [36m/>[39m
                 [36m<label[39m
                   [33mclass[39m=[32m"form-check-label"[39m
@@ -4341,7 +4341,7 @@ FAIL src/HtmlCss.test.tsx
                 [36m<input[39m
                   [33mclass[39m=[32m"form-check-input"[39m
                   [33mtype[39m=[32m"radio"[39m
-                  [33mvalue[39m=[32m"red"[39m
+                  [33mvalue[39m=[32m"indigo"[39m
                 [36m/>[39m
                 [36m<label[39m
                   [33mclass[39m=[32m"form-check-label"[39m
@@ -4360,7 +4360,7 @@ FAIL src/HtmlCss.test.tsx
                 [36m<input[39m
                   [33mclass[39m=[32m"form-check-input"[39m
                   [33mtype[39m=[32m"radio"[39m
-                  [33mvalue[39m=[32m"red"[39m
+                  [33mvalue[39m=[32m"violet"[39m
                 [36m/>[39m
                 [36m<label[39m
                   [33mclass[39m=[32m"form-check-label"[39m
@@ -4379,7 +4379,7 @@ FAIL src/HtmlCss.test.tsx
                 [36m<input[39m
                   [33mclass[39m=[32m"form-check-input"[39m
                   [33mtype[39m=[32m"radio"[39m
-                  [33mvalue[39m=[32m"red"[39m
+                  [33mvalue[39m=[32m"gray"[39m
                 [36m/>[39m
                 [36m<label[39m
                   [33mclass[39m=[32m"form-check-label"[39m
@@ -5021,49 +5021,49 @@ FAIL src/HtmlCss.test.tsx
       [36m<input[39m
         [33mclass[39m=[32m"form-check-input"[39m
         [33mtype[39m=[32m"radio"[39m
-        [33mvalue[39m=[32m"red"[39m
+        [33mvalue[39m=[32m"orange"[39m
       [36m/>[39m
 
       Name "":
       [36m<input[39m
         [33mclass[39m=[32m"form-check-input"[39m
         [33mtype[39m=[32m"radio"[39m
-        [33mvalue[39m=[32m"red"[39m
+        [33mvalue[39m=[32m"yellow"[39m
       [36m/>[39m
 
       Name "":
       [36m<input[39m
         [33mclass[39m=[32m"form-check-input"[39m
         [33mtype[39m=[32m"radio"[39m
-        [33mvalue[39m=[32m"red"[39m
+        [33mvalue[39m=[32m"green"[39m
       [36m/>[39m
 
       Name "":
       [36m<input[39m
         [33mclass[39m=[32m"form-check-input"[39m
         [33mtype[39m=[32m"radio"[39m
-        [33mvalue[39m=[32m"red"[39m
+        [33mvalue[39m=[32m"blue"[39m
       [36m/>[39m
 
       Name "":
       [36m<input[39m
         [33mclass[39m=[32m"form-check-input"[39m
         [33mtype[39m=[32m"radio"[39m
-        [33mvalue[39m=[32m"red"[39m
+        [33mvalue[39m=[32m"indigo"[39m
       [36m/>[39m
 
       Name "":
       [36m<input[39m
         [33mclass[39m=[32m"form-check-input"[39m
         [33mtype[39m=[32m"radio"[39m
-        [33mvalue[39m=[32m"red"[39m
+        [33mvalue[39m=[32m"violet"[39m
       [36m/>[39m
 
       Name "":
       [36m<input[39m
         [33mclass[39m=[32m"form-check-input"[39m
         [33mtype[39m=[32m"radio"[39m
-        [33mvalue[39m=[32m"red"[39m
+        [33mvalue[39m=[32m"gray"[39m
       [36m/>[39m
 
       --------------------------------------------------
@@ -5223,7 +5223,7 @@ FAIL src/HtmlCss.test.tsx
                 [36m<input[39m
                   [33mclass[39m=[32m"form-check-input"[39m
                   [33mtype[39m=[32m"radio"[39m
-                  [33mvalue[39m=[32m"red"[39m
+                  [33mvalue[39m=[32m"orange"[39m
                 [36m/>[39m
                 [36m<label[39m
                   [33mclass[39m=[32m"form-check-label"[39m
@@ -5242,7 +5242,7 @@ FAIL src/HtmlCss.test.tsx
                 [36m<input[39m
                   [33mclass[39m=[32m"form-check-input"[39m
                   [33mtype[39m=[32m"radio"[39m
-                  [33mvalue[39m=[32m"red"[39m
+                  [33mvalue[39m=[32m"yellow"[39m
                 [36m/>[39m
                 [36m<label[39m
                   [33mclass[39m=[32m"form-check-label"[39m
@@ -5261,7 +5261,7 @@ FAIL src/HtmlCss.test.tsx
                 [36m<input[39m
                   [33mclass[39m=[32m"form-check-input"[39m
                   [33mtype[39m=[32m"radio"[39m
-                  [33mvalue[39m=[32m"red"[39m
+                  [33mvalue[39m=[32m"green"[39m
                 [36m/>[39m
                 [36m<label[39m
                   [33mclass[39m=[32m"form-check-label"[39m
@@ -5280,7 +5280,7 @@ FAIL src/HtmlCss.test.tsx
                 [36m<input[39m
                   [33mclass[39m=[32m"form-check-input"[39m
                   [33mtype[39m=[32m"radio"[39m
-                  [33mvalue[39m=[32m"red"[39m
+                  [33mvalue[39m=[32m"blue"[39m
                 [36m/>[39m
                 [36m<label[39m
                   [33mclass[39m=[32m"form-check-label"[39m
@@ -5299,7 +5299,7 @@ FAIL src/HtmlCss.test.tsx
                 [36m<input[39m
                   [33mclass[39m=[32m"form-check-input"[39m
                   [33mtype[39m=[32m"radio"[39m
-                  [33mvalue[39m=[32m"red"[39m
+                  [33mvalue[39m=[32m"indigo"[39m
                 [36m/>[39m
                 [36m<label[39m
                   [33mclass[39m=[32m"form-check-label"[39m
@@ -5318,7 +5318,7 @@ FAIL src/HtmlCss.test.tsx
                 [36m<input[39m
                   [33mclass[39m=[32m"form-check-input"[39m
                   [33mtype[39m=[32m"radio"[39m
-                  [33mvalue[39m=[32m"red"[39m
+                  [33mvalue[39m=[32m"violet"[39m
                 [36m/>[39m
                 [36m<label[39m
                   [33mclass[39m=[32m"form-check-label"[39m
@@ -5337,7 +5337,7 @@ FAIL src/HtmlCss.test.tsx
                 [36m<input[39m
                   [33mclass[39m=[32m"form-check-input"[39m
                   [33mtype[39m=[32m"radio"[39m
-                  [33mvalue[39m=[32m"red"[39m
+                  [33mvalue[39m=[32m"gray"[39m
                 [36m/>[39m
                 [36m<label[39m
                   [33mclass[39m=[32m"form-check-label"[39m
@@ -5976,7 +5976,7 @@ FAIL src/text.test.tsx
                 [36m<input[39m
                   [33mclass[39m=[32m"form-check-input"[39m
                   [33mtype[39m=[32m"radio"[39m
-                  [33mvalue[39m=[32m"red"[39m
+                  [33mvalue[39m=[32m"orange"[39m
                 [36m/>[39m
                 [36m<label[39m
                   [33mclass[39m=[32m"form-check-label"[39m
@@ -5995,7 +5995,7 @@ FAIL src/text.test.tsx
                 [36m<input[39m
                   [33mclass[39m=[32m"form-check-input"[39m
                   [33mtype[39m=[32m"radio"[39m
-                  [33mvalue[39m=[32m"red"[39m
+                  [33mvalue[39m=[32m"yellow"[39m
                 [36m/>[39m
                 [36m<label[39m
                   [33mclass[39m=[32m"form-check-label"[39m
@@ -6014,7 +6014,7 @@ FAIL src/text.test.tsx
                 [36m<input[39m
                   [33mclass[39m=[32m"form-check-input"[39m
                   [33mtype[39m=[32m"radio"[39m
-                  [33mvalue[39m=[32m"red"[39m
+                  [33mvalue[39m=[32m"green"[39m
                 [36m/>[39m
                 [36m<label[39m
                   [33mclass[39m=[32m"form-check-label"[39m
@@ -6033,7 +6033,7 @@ FAIL src/text.test.tsx
                 [36m<input[39m
                   [33mclass[39m=[32m"form-check-input"[39m
                   [33mtype[39m=[32m"radio"[39m
-                  [33mvalue[39m=[32m"red"[39m
+                  [33mvalue[39m=[32m"blue"[39m
                 [36m/>[39m
                 [36m<label[39m
                   [33mclass[39m=[32m"form-check-label"[39m
@@ -6052,7 +6052,7 @@ FAIL src/text.test.tsx
                 [36m<input[39m
                   [33mclass[39m=[32m"form-check-input"[39m
                   [33mtype[39m=[32m"radio"[39m
-                  [33mvalue[39m=[32m"red"[39m
+                  [33mvalue[39m=[32m"indigo"[39m
                 [36m/>[39m
                 [36m<label[39m
                   [33mclass[39m=[32m"form-check-label"[39m
@@ -6071,7 +6071,7 @@ FAIL src/text.test.tsx
                 [36m<input[39m
                   [33mclass[39m=[32m"form-check-input"[39m
                   [33mtype[39m=[32m"radio"[39m
-                  [33mvalue[39m=[32m"red"[39m
+                  [33mvalue[39m=[32m"violet"[39m
                 [36m/>[39m
                 [36m<label[39m
                   [33mclass[39m=[32m"form-check-label"[39m
@@ -6090,7 +6090,7 @@ FAIL src/text.test.tsx
                 [36m<input[39m
                   [33mclass[39m=[32m"form-check-input"[39m
                   [33mtype[39m=[32m"radio"[39m
-                  [33mvalue[39m=[32m"red"[39m
+                  [33mvalue[39m=[32m"gray"[39m
                 [36m/>[39m
                 [36m<label[39m
                   [33mclass[39m=[32m"form-check-label"[39m
@@ -7682,7 +7682,7 @@ FAIL src/components/TwoDice.test.tsx
       at getByRole (node_modules/@testing-library/dom/dist/query-helpers.js:111:19)
       at Object.<anonymous> (src/components/TwoDice.test.tsx:119:35)
 
-FAIL src/HtmlCss.test.tsx
+FAIL src/HtmlCss.test.tsx (7.105 s)
   ● Some HTML Elements are added. › There is a header
 
     TestingLibraryElementError: Found multiple elements with the role "heading"
@@ -7865,7 +7865,7 @@ FAIL src/HtmlCss.test.tsx
                 [36m<input[39m
                   [33mclass[39m=[32m"form-check-input"[39m
                   [33mtype[39m=[32m"radio"[39m
-                  [33mvalue[39m=[32m"red"[39m
+                  [33mvalue[39m=[32m"orange"[39m
                 [36m/>[39m
                 [36m<label[39m
                   [33mclass[39m=[32m"form-check-label"[39m
@@ -7884,7 +7884,7 @@ FAIL src/HtmlCss.test.tsx
                 [36m<input[39m
                   [33mclass[39m=[32m"form-check-input"[39m
                   [33mtype[39m=[32m"radio"[39m
-                  [33mvalue[39m=[32m"red"[39m
+                  [33mvalue[39m=[32m"yellow"[39m
                 [36m/>[39m
                 [36m<label[39m
                   [33mclass[39m=[32m"form-check-label"[39m
@@ -7903,7 +7903,7 @@ FAIL src/HtmlCss.test.tsx
                 [36m<input[39m
                   [33mclass[39m=[32m"form-check-input"[39m
                   [33mtype[39m=[32m"radio"[39m
-                  [33mvalue[39m=[32m"red"[39m
+                  [33mvalue[39m=[32m"green"[39m
                 [36m/>[39m
                 [36m<label[39m
                   [33mclass[39m=[32m"form-check-label"[39m
@@ -7922,7 +7922,7 @@ FAIL src/HtmlCss.test.tsx
                 [36m<input[39m
                   [33mclass[39m=[32m"form-check-input"[39m
                   [33mtype[39m=[32m"radio"[39m
-                  [33mvalue[39m=[32m"red"[39m
+                  [33mvalue[39m=[32m"blue"[39m
                 [36m/>[39m
                 [36m<label[39m
                   [33mclass[39m=[32m"form-check-label"[39m
@@ -7941,7 +7941,7 @@ FAIL src/HtmlCss.test.tsx
                 [36m<input[39m
                   [33mclass[39m=[32m"form-check-input"[39m
                   [33mtype[39m=[32m"radio"[39m
-                  [33mvalue[39m=[32m"red"[39m
+                  [33mvalue[39m=[32m"indigo"[39m
                 [36m/>[39m
                 [36m<label[39m
                   [33mclass[39m=[32m"form-check-label"[39m
@@ -7960,7 +7960,7 @@ FAIL src/HtmlCss.test.tsx
                 [36m<input[39m
                   [33mclass[39m=[32m"form-check-input"[39m
                   [33mtype[39m=[32m"radio"[39m
-                  [33mvalue[39m=[32m"red"[39m
+                  [33mvalue[39m=[32m"violet"[39m
                 [36m/>[39m
                 [36m<label[39m
                   [33mclass[39m=[32m"form-check-label"[39m
@@ -7979,7 +7979,7 @@ FAIL src/HtmlCss.test.tsx
                 [36m<input[39m
                   [33mclass[39m=[32m"form-check-input"[39m
                   [33mtype[39m=[32m"radio"[39m
-                  [33mvalue[39m=[32m"red"[39m
+                  [33mvalue[39m=[32m"gray"[39m
                 [36m/>[39m
                 [36m<label[39m
                   [33mclass[39m=[32m"form-check-label"[39m
@@ -8622,49 +8622,49 @@ FAIL src/HtmlCss.test.tsx
       [36m<input[39m
         [33mclass[39m=[32m"form-check-input"[39m
         [33mtype[39m=[32m"radio"[39m
-        [33mvalue[39m=[32m"red"[39m
+        [33mvalue[39m=[32m"orange"[39m
       [36m/>[39m
 
       Name "":
       [36m<input[39m
         [33mclass[39m=[32m"form-check-input"[39m
         [33mtype[39m=[32m"radio"[39m
-        [33mvalue[39m=[32m"red"[39m
+        [33mvalue[39m=[32m"yellow"[39m
       [36m/>[39m
 
       Name "":
       [36m<input[39m
         [33mclass[39m=[32m"form-check-input"[39m
         [33mtype[39m=[32m"radio"[39m
-        [33mvalue[39m=[32m"red"[39m
+        [33mvalue[39m=[32m"green"[39m
       [36m/>[39m
 
       Name "":
       [36m<input[39m
         [33mclass[39m=[32m"form-check-input"[39m
         [33mtype[39m=[32m"radio"[39m
-        [33mvalue[39m=[32m"red"[39m
+        [33mvalue[39m=[32m"blue"[39m
       [36m/>[39m
 
       Name "":
       [36m<input[39m
         [33mclass[39m=[32m"form-check-input"[39m
         [33mtype[39m=[32m"radio"[39m
-        [33mvalue[39m=[32m"red"[39m
+        [33mvalue[39m=[32m"indigo"[39m
       [36m/>[39m
 
       Name "":
       [36m<input[39m
         [33mclass[39m=[32m"form-check-input"[39m
         [33mtype[39m=[32m"radio"[39m
-        [33mvalue[39m=[32m"red"[39m
+        [33mvalue[39m=[32m"violet"[39m
       [36m/>[39m
 
       Name "":
       [36m<input[39m
         [33mclass[39m=[32m"form-check-input"[39m
         [33mtype[39m=[32m"radio"[39m
-        [33mvalue[39m=[32m"red"[39m
+        [33mvalue[39m=[32m"gray"[39m
       [36m/>[39m
 
       --------------------------------------------------
@@ -8824,7 +8824,7 @@ FAIL src/HtmlCss.test.tsx
                 [36m<input[39m
                   [33mclass[39m=[32m"form-check-input"[39m
                   [33mtype[39m=[32m"radio"[39m
-                  [33mvalue[39m=[32m"red"[39m
+                  [33mvalue[39m=[32m"orange"[39m
                 [36m/>[39m
                 [36m<label[39m
                   [33mclass[39m=[32m"form-check-label"[39m
@@ -8843,7 +8843,7 @@ FAIL src/HtmlCss.test.tsx
                 [36m<input[39m
                   [33mclass[39m=[32m"form-check-input"[39m
                   [33mtype[39m=[32m"radio"[39m
-                  [33mvalue[39m=[32m"red"[39m
+                  [33mvalue[39m=[32m"yellow"[39m
                 [36m/>[39m
                 [36m<label[39m
                   [33mclass[39m=[32m"form-check-label"[39m
@@ -8862,7 +8862,7 @@ FAIL src/HtmlCss.test.tsx
                 [36m<input[39m
                   [33mclass[39m=[32m"form-check-input"[39m
                   [33mtype[39m=[32m"radio"[39m
-                  [33mvalue[39m=[32m"red"[39m
+                  [33mvalue[39m=[32m"green"[39m
                 [36m/>[39m
                 [36m<label[39m
                   [33mclass[39m=[32m"form-check-label"[39m
@@ -8881,7 +8881,7 @@ FAIL src/HtmlCss.test.tsx
                 [36m<input[39m
                   [33mclass[39m=[32m"form-check-input"[39m
                   [33mtype[39m=[32m"radio"[39m
-                  [33mvalue[39m=[32m"red"[39m
+                  [33mvalue[39m=[32m"blue"[39m
                 [36m/>[39m
                 [36m<label[39m
                   [33mclass[39m=[32m"form-check-label"[39m
@@ -8900,7 +8900,7 @@ FAIL src/HtmlCss.test.tsx
                 [36m<input[39m
                   [33mclass[39m=[32m"form-check-input"[39m
                   [33mtype[39m=[32m"radio"[39m
-                  [33mvalue[39m=[32m"red"[39m
+                  [33mvalue[39m=[32m"indigo"[39m
                 [36m/>[39m
                 [36m<label[39m
                   [33mclass[39m=[32m"form-check-label"[39m
@@ -8919,7 +8919,7 @@ FAIL src/HtmlCss.test.tsx
                 [36m<input[39m
                   [33mclass[39m=[32m"form-check-input"[39m
                   [33mtype[39m=[32m"radio"[39m
-                  [33mvalue[39m=[32m"red"[39m
+                  [33mvalue[39m=[32m"violet"[39m
                 [36m/>[39m
                 [36m<label[39m
                   [33mclass[39m=[32m"form-check-label"[39m
@@ -8938,7 +8938,7 @@ FAIL src/HtmlCss.test.tsx
                 [36m<input[39m
                   [33mclass[39m=[32m"form-check-input"[39m
                   [33mtype[39m=[32m"radio"[39m
-                  [33mvalue[39m=[32m"red"[39m
+                  [33mvalue[39m=[32m"gray"[39m
                 [36m/>[39m
                 [36m<label[39m
                   [33mclass[39m=[32m"form-check-label"[39m
@@ -9580,49 +9580,49 @@ FAIL src/HtmlCss.test.tsx
       [36m<input[39m
         [33mclass[39m=[32m"form-check-input"[39m
         [33mtype[39m=[32m"radio"[39m
-        [33mvalue[39m=[32m"red"[39m
+        [33mvalue[39m=[32m"orange"[39m
       [36m/>[39m
 
       Name "":
       [36m<input[39m
         [33mclass[39m=[32m"form-check-input"[39m
         [33mtype[39m=[32m"radio"[39m
-        [33mvalue[39m=[32m"red"[39m
+        [33mvalue[39m=[32m"yellow"[39m
       [36m/>[39m
 
       Name "":
       [36m<input[39m
         [33mclass[39m=[32m"form-check-input"[39m
         [33mtype[39m=[32m"radio"[39m
-        [33mvalue[39m=[32m"red"[39m
+        [33mvalue[39m=[32m"green"[39m
       [36m/>[39m
 
       Name "":
       [36m<input[39m
         [33mclass[39m=[32m"form-check-input"[39m
         [33mtype[39m=[32m"radio"[39m
-        [33mvalue[39m=[32m"red"[39m
+        [33mvalue[39m=[32m"blue"[39m
       [36m/>[39m
 
       Name "":
       [36m<input[39m
         [33mclass[39m=[32m"form-check-input"[39m
         [33mtype[39m=[32m"radio"[39m
-        [33mvalue[39m=[32m"red"[39m
+        [33mvalue[39m=[32m"indigo"[39m
       [36m/>[39m
 
       Name "":
       [36m<input[39m
         [33mclass[39m=[32m"form-check-input"[39m
         [33mtype[39m=[32m"radio"[39m
-        [33mvalue[39m=[32m"red"[39m
+        [33mvalue[39m=[32m"violet"[39m
       [36m/>[39m
 
       Name "":
       [36m<input[39m
         [33mclass[39m=[32m"form-check-input"[39m
         [33mtype[39m=[32m"radio"[39m
-        [33mvalue[39m=[32m"red"[39m
+        [33mvalue[39m=[32m"gray"[39m
       [36m/>[39m
 
       --------------------------------------------------
@@ -9782,7 +9782,7 @@ FAIL src/HtmlCss.test.tsx
                 [36m<input[39m
                   [33mclass[39m=[32m"form-check-input"[39m
                   [33mtype[39m=[32m"radio"[39m
-                  [33mvalue[39m=[32m"red"[39m
+                  [33mvalue[39m=[32m"orange"[39m
                 [36m/>[39m
                 [36m<label[39m
                   [33mclass[39m=[32m"form-check-label"[39m
@@ -9801,7 +9801,7 @@ FAIL src/HtmlCss.test.tsx
                 [36m<input[39m
                   [33mclass[39m=[32m"form-check-input"[39m
                   [33mtype[39m=[32m"radio"[39m
-                  [33mvalue[39m=[32m"red"[39m
+                  [33mvalue[39m=[32m"yellow"[39m
                 [36m/>[39m
                 [36m<label[39m
                   [33mclass[39m=[32m"form-check-label"[39m
@@ -9820,7 +9820,7 @@ FAIL src/HtmlCss.test.tsx
                 [36m<input[39m
                   [33mclass[39m=[32m"form-check-input"[39m
                   [33mtype[39m=[32m"radio"[39m
-                  [33mvalue[39m=[32m"red"[39m
+                  [33mvalue[39m=[32m"green"[39m
                 [36m/>[39m
                 [36m<label[39m
                   [33mclass[39m=[32m"form-check-label"[39m
@@ -9839,7 +9839,7 @@ FAIL src/HtmlCss.test.tsx
                 [36m<input[39m
                   [33mclass[39m=[32m"form-check-input"[39m
                   [33mtype[39m=[32m"radio"[39m
-                  [33mvalue[39m=[32m"red"[39m
+                  [33mvalue[39m=[32m"blue"[39m
                 [36m/>[39m
                 [36m<label[39m
                   [33mclass[39m=[32m"form-check-label"[39m
@@ -9858,7 +9858,7 @@ FAIL src/HtmlCss.test.tsx
                 [36m<input[39m
                   [33mclass[39m=[32m"form-check-input"[39m
                   [33mtype[39m=[32m"radio"[39m
-                  [33mvalue[39m=[32m"red"[39m
+                  [33mvalue[39m=[32m"indigo"[39m
                 [36m/>[39m
                 [36m<label[39m
                   [33mclass[39m=[32m"form-check-label"[39m
@@ -9877,7 +9877,7 @@ FAIL src/HtmlCss.test.tsx
                 [36m<input[39m
                   [33mclass[39m=[32m"form-check-input"[39m
                   [33mtype[39m=[32m"radio"[39m
-                  [33mvalue[39m=[32m"red"[39m
+                  [33mvalue[39m=[32m"violet"[39m
                 [36m/>[39m
                 [36m<label[39m
                   [33mclass[39m=[32m"form-check-label"[39m
@@ -9896,7 +9896,7 @@ FAIL src/HtmlCss.test.tsx
                 [36m<input[39m
                   [33mclass[39m=[32m"form-check-input"[39m
                   [33mtype[39m=[32m"radio"[39m
-                  [33mvalue[39m=[32m"red"[39m
+                  [33mvalue[39m=[32m"gray"[39m
                 [36m/>[39m
                 [36m<label[39m
                   [33mclass[39m=[32m"form-check-label"[39m
@@ -10538,49 +10538,49 @@ FAIL src/HtmlCss.test.tsx
       [36m<input[39m
         [33mclass[39m=[32m"form-check-input"[39m
         [33mtype[39m=[32m"radio"[39m
-        [33mvalue[39m=[32m"red"[39m
+        [33mvalue[39m=[32m"orange"[39m
       [36m/>[39m
 
       Name "":
       [36m<input[39m
         [33mclass[39m=[32m"form-check-input"[39m
         [33mtype[39m=[32m"radio"[39m
-        [33mvalue[39m=[32m"red"[39m
+        [33mvalue[39m=[32m"yellow"[39m
       [36m/>[39m
 
       Name "":
       [36m<input[39m
         [33mclass[39m=[32m"form-check-input"[39m
         [33mtype[39m=[32m"radio"[39m
-        [33mvalue[39m=[32m"red"[39m
+        [33mvalue[39m=[32m"green"[39m
       [36m/>[39m
 
       Name "":
       [36m<input[39m
         [33mclass[39m=[32m"form-check-input"[39m
         [33mtype[39m=[32m"radio"[39m
-        [33mvalue[39m=[32m"red"[39m
+        [33mvalue[39m=[32m"blue"[39m
       [36m/>[39m
 
       Name "":
       [36m<input[39m
         [33mclass[39m=[32m"form-check-input"[39m
         [33mtype[39m=[32m"radio"[39m
-        [33mvalue[39m=[32m"red"[39m
+        [33mvalue[39m=[32m"indigo"[39m
       [36m/>[39m
 
       Name "":
       [36m<input[39m
         [33mclass[39m=[32m"form-check-input"[39m
         [33mtype[39m=[32m"radio"[39m
-        [33mvalue[39m=[32m"red"[39m
+        [33mvalue[39m=[32m"violet"[39m
       [36m/>[39m
 
       Name "":
       [36m<input[39m
         [33mclass[39m=[32m"form-check-input"[39m
         [33mtype[39m=[32m"radio"[39m
-        [33mvalue[39m=[32m"red"[39m
+        [33mvalue[39m=[32m"gray"[39m
       [36m/>[39m
 
       --------------------------------------------------
@@ -10740,7 +10740,7 @@ FAIL src/HtmlCss.test.tsx
                 [36m<input[39m
                   [33mclass[39m=[32m"form-check-input"[39m
                   [33mtype[39m=[32m"radio"[39m
-                  [33mvalue[39m=[32m"red"[39m
+                  [33mvalue[39m=[32m"orange"[39m
                 [36m/>[39m
                 [36m<label[39m
                   [33mclass[39m=[32m"form-check-label"[39m
@@ -10759,7 +10759,7 @@ FAIL src/HtmlCss.test.tsx
                 [36m<input[39m
                   [33mclass[39m=[32m"form-check-input"[39m
                   [33mtype[39m=[32m"radio"[39m
-                  [33mvalue[39m=[32m"red"[39m
+                  [33mvalue[39m=[32m"yellow"[39m
                 [36m/>[39m
                 [36m<label[39m
                   [33mclass[39m=[32m"form-check-label"[39m
@@ -10778,7 +10778,7 @@ FAIL src/HtmlCss.test.tsx
                 [36m<input[39m
                   [33mclass[39m=[32m"form-check-input"[39m
                   [33mtype[39m=[32m"radio"[39m
-                  [33mvalue[39m=[32m"red"[39m
+                  [33mvalue[39m=[32m"green"[39m
                 [36m/>[39m
                 [36m<label[39m
                   [33mclass[39m=[32m"form-check-label"[39m
@@ -10797,7 +10797,7 @@ FAIL src/HtmlCss.test.tsx
                 [36m<input[39m
                   [33mclass[39m=[32m"form-check-input"[39m
                   [33mtype[39m=[32m"radio"[39m
-                  [33mvalue[39m=[32m"red"[39m
+                  [33mvalue[39m=[32m"blue"[39m
                 [36m/>[39m
                 [36m<label[39m
                   [33mclass[39m=[32m"form-check-label"[39m
@@ -10816,7 +10816,7 @@ FAIL src/HtmlCss.test.tsx
                 [36m<input[39m
                   [33mclass[39m=[32m"form-check-input"[39m
                   [33mtype[39m=[32m"radio"[39m
-                  [33mvalue[39m=[32m"red"[39m
+                  [33mvalue[39m=[32m"indigo"[39m
                 [36m/>[39m
                 [36m<label[39m
                   [33mclass[39m=[32m"form-check-label"[39m
@@ -10835,7 +10835,7 @@ FAIL src/HtmlCss.test.tsx
                 [36m<input[39m
                   [33mclass[39m=[32m"form-check-input"[39m
                   [33mtype[39m=[32m"radio"[39m
-                  [33mvalue[39m=[32m"red"[39m
+                  [33mvalue[39m=[32m"violet"[39m
                 [36m/>[39m
                 [36m<label[39m
                   [33mclass[39m=[32m"form-check-label"[39m
@@ -10854,7 +10854,7 @@ FAIL src/HtmlCss.test.tsx
                 [36m<input[39m
                   [33mclass[39m=[32m"form-check-input"[39m
                   [33mtype[39m=[32m"radio"[39m
-                  [33mvalue[39m=[32m"red"[39m
+                  [33mvalue[39m=[32m"gray"[39m
                 [36m/>[39m
                 [36m<label[39m
                   [33mclass[39m=[32m"form-check-label"[39m
@@ -11496,49 +11496,49 @@ FAIL src/HtmlCss.test.tsx
       [36m<input[39m
         [33mclass[39m=[32m"form-check-input"[39m
         [33mtype[39m=[32m"radio"[39m
-        [33mvalue[39m=[32m"red"[39m
+        [33mvalue[39m=[32m"orange"[39m
       [36m/>[39m
 
       Name "":
       [36m<input[39m
         [33mclass[39m=[32m"form-check-input"[39m
         [33mtype[39m=[32m"radio"[39m
-        [33mvalue[39m=[32m"red"[39m
+        [33mvalue[39m=[32m"yellow"[39m
       [36m/>[39m
 
       Name "":
       [36m<input[39m
         [33mclass[39m=[32m"form-check-input"[39m
         [33mtype[39m=[32m"radio"[39m
-        [33mvalue[39m=[32m"red"[39m
+        [33mvalue[39m=[32m"green"[39m
       [36m/>[39m
 
       Name "":
       [36m<input[39m
         [33mclass[39m=[32m"form-check-input"[39m
         [33mtype[39m=[32m"radio"[39m
-        [33mvalue[39m=[32m"red"[39m
+        [33mvalue[39m=[32m"blue"[39m
       [36m/>[39m
 
       Name "":
       [36m<input[39m
         [33mclass[39m=[32m"form-check-input"[39m
         [33mtype[39m=[32m"radio"[39m
-        [33mvalue[39m=[32m"red"[39m
+        [33mvalue[39m=[32m"indigo"[39m
       [36m/>[39m
 
       Name "":
       [36m<input[39m
         [33mclass[39m=[32m"form-check-input"[39m
         [33mtype[39m=[32m"radio"[39m
-        [33mvalue[39m=[32m"red"[39m
+        [33mvalue[39m=[32m"violet"[39m
       [36m/>[39m
 
       Name "":
       [36m<input[39m
         [33mclass[39m=[32m"form-check-input"[39m
         [33mtype[39m=[32m"radio"[39m
-        [33mvalue[39m=[32m"red"[39m
+        [33mvalue[39m=[32m"gray"[39m
       [36m/>[39m
 
       --------------------------------------------------
@@ -11698,7 +11698,7 @@ FAIL src/HtmlCss.test.tsx
                 [36m<input[39m
                   [33mclass[39m=[32m"form-check-input"[39m
                   [33mtype[39m=[32m"radio"[39m
-                  [33mvalue[39m=[32m"red"[39m
+                  [33mvalue[39m=[32m"orange"[39m
                 [36m/>[39m
                 [36m<label[39m
                   [33mclass[39m=[32m"form-check-label"[39m
@@ -11717,7 +11717,7 @@ FAIL src/HtmlCss.test.tsx
                 [36m<input[39m
                   [33mclass[39m=[32m"form-check-input"[39m
                   [33mtype[39m=[32m"radio"[39m
-                  [33mvalue[39m=[32m"red"[39m
+                  [33mvalue[39m=[32m"yellow"[39m
                 [36m/>[39m
                 [36m<label[39m
                   [33mclass[39m=[32m"form-check-label"[39m
@@ -11736,7 +11736,7 @@ FAIL src/HtmlCss.test.tsx
                 [36m<input[39m
                   [33mclass[39m=[32m"form-check-input"[39m
                   [33mtype[39m=[32m"radio"[39m
-                  [33mvalue[39m=[32m"red"[39m
+                  [33mvalue[39m=[32m"green"[39m
                 [36m/>[39m
                 [36m<label[39m
                   [33mclass[39m=[32m"form-check-label"[39m
@@ -11755,7 +11755,7 @@ FAIL src/HtmlCss.test.tsx
                 [36m<input[39m
                   [33mclass[39m=[32m"form-check-input"[39m
                   [33mtype[39m=[32m"radio"[39m
-                  [33mvalue[39m=[32m"red"[39m
+                  [33mvalue[39m=[32m"blue"[39m
                 [36m/>[39m
                 [36m<label[39m
                   [33mclass[39m=[32m"form-check-label"[39m
@@ -11774,7 +11774,7 @@ FAIL src/HtmlCss.test.tsx
                 [36m<input[39m
                   [33mclass[39m=[32m"form-check-input"[39m
                   [33mtype[39m=[32m"radio"[39m
-                  [33mvalue[39m=[32m"red"[39m
+                  [33mvalue[39m=[32m"indigo"[39m
                 [36m/>[39m
                 [36m<label[39m
                   [33mclass[39m=[32m"form-check-label"[39m
@@ -11793,7 +11793,7 @@ FAIL src/HtmlCss.test.tsx
                 [36m<input[39m
                   [33mclass[39m=[32m"form-check-input"[39m
                   [33mtype[39m=[32m"radio"[39m
-                  [33mvalue[39m=[32m"red"[39m
+                  [33mvalue[39m=[32m"violet"[39m
                 [36m/>[39m
                 [36m<label[39m
                   [33mclass[39m=[32m"form-check-label"[39m
@@ -11812,7 +11812,7 @@ FAIL src/HtmlCss.test.tsx
                 [36m<input[39m
                   [33mclass[39m=[32m"form-check-input"[39m
                   [33mtype[39m=[32m"radio"[39m
-                  [33mvalue[39m=[32m"red"[39m
+                  [33mvalue[39m=[32m"gray"[39m
                 [36m/>[39m
                 [36m<label[39m
                   [33mclass[39m=[32m"form-check-label"[39m
@@ -12441,7 +12441,7 @@ FAIL src/text.test.tsx
                 [36m<input[39m
                   [33mclass[39m=[32m"form-check-input"[39m
                   [33mtype[39m=[32m"radio"[39m
-                  [33mvalue[39m=[32m"red"[39m
+                  [33mvalue[39m=[32m"orange"[39m
                 [36m/>[39m
                 [36m<label[39m
                   [33mclass[39m=[32m"form-check-label"[39m
@@ -12460,7 +12460,7 @@ FAIL src/text.test.tsx
                 [36m<input[39m
                   [33mclass[39m=[32m"form-check-input"[39m
                   [33mtype[39m=[32m"radio"[39m
-                  [33mvalue[39m=[32m"red"[39m
+                  [33mvalue[39m=[32m"yellow"[39m
                 [36m/>[39m
                 [36m<label[39m
                   [33mclass[39m=[32m"form-check-label"[39m
@@ -12479,7 +12479,7 @@ FAIL src/text.test.tsx
                 [36m<input[39m
                   [33mclass[39m=[32m"form-check-input"[39m
                   [33mtype[39m=[32m"radio"[39m
-                  [33mvalue[39m=[32m"red"[39m
+                  [33mvalue[39m=[32m"green"[39m
                 [36m/>[39m
                 [36m<label[39m
                   [33mclass[39m=[32m"form-check-label"[39m
@@ -12498,7 +12498,7 @@ FAIL src/text.test.tsx
                 [36m<input[39m
                   [33mclass[39m=[32m"form-check-input"[39m
                   [33mtype[39m=[32m"radio"[39m
-                  [33mvalue[39m=[32m"red"[39m
+                  [33mvalue[39m=[32m"blue"[39m
                 [36m/>[39m
                 [36m<label[39m
                   [33mclass[39m=[32m"form-check-label"[39m
@@ -12517,7 +12517,7 @@ FAIL src/text.test.tsx
                 [36m<input[39m
                   [33mclass[39m=[32m"form-check-input"[39m
                   [33mtype[39m=[32m"radio"[39m
-                  [33mvalue[39m=[32m"red"[39m
+                  [33mvalue[39m=[32m"indigo"[39m
                 [36m/>[39m
                 [36m<label[39m
                   [33mclass[39m=[32m"form-check-label"[39m
@@ -12536,7 +12536,7 @@ FAIL src/text.test.tsx
                 [36m<input[39m
                   [33mclass[39m=[32m"form-check-input"[39m
                   [33mtype[39m=[32m"radio"[39m
-                  [33mvalue[39m=[32m"red"[39m
+                  [33mvalue[39m=[32m"violet"[39m
                 [36m/>[39m
                 [36m<label[39m
                   [33mclass[39m=[32m"form-check-label"[39m
@@ -12555,7 +12555,7 @@ FAIL src/text.test.tsx
                 [36m<input[39m
                   [33mclass[39m=[32m"form-check-input"[39m
                   [33mtype[39m=[32m"radio"[39m
-                  [33mvalue[39m=[32m"red"[39m
+                  [33mvalue[39m=[32m"gray"[39m
                 [36m/>[39m
                 [36m<label[39m
                   [33mclass[39m=[32m"form-check-label"[39m
@@ -12920,5 +12920,5 @@ FAIL src/text.test.tsx
 Test Suites: 5 failed, 17 passed, 22 total
 Tests:       31 failed, 111 passed, 142 total
 Snapshots:   0 total
-Time:        17.825 s
+Time:        25.91 s
 Ran all test suites.
