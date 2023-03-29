@@ -18,6 +18,7 @@ export function ChangeColor(): JSX.Element {
     function colorSelector(event: React.ChangeEvent<HTMLInputElement>) {
         colorLock(event.target.value);
     }
+
     return (
         <div>
             <h3>Change Color</h3>
@@ -31,7 +32,7 @@ export function ChangeColor(): JSX.Element {
                         label={
                             <span style={{ background: color }}>{color}</span>
                         }
-                        value={colorChoice}
+                        value={color}
                         checked={colorChoice === color}
                     />
                 ))}
